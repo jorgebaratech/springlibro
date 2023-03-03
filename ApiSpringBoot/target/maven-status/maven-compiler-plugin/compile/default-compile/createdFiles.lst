@@ -1,0 +1,4 @@
+com\example\ApiSpringBoot\demo\LibroRepository.class
+com\example\ApiSpringBoot\demo\LibroController.class
+models\libro.class
+com\example\ApiSpringBoot\demo\ApiSpringBootApplication.class
