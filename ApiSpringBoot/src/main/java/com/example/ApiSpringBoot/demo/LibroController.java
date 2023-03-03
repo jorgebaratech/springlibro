@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/apirest")
+@RequestMapping("/")
 public class LibroController {
     
     @Autowired
     private LibroRepository repo;
     
-    @GetMapping("/")
+    @GetMapping("/api")
     public List<models.libro> list() {
         return repo.findAll();
     }
